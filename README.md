@@ -7,15 +7,17 @@ This project is an automatic power factor correction (APFC) system developed usi
 To improve power factor, reduce reactive power losses, and enhance power quality in electrical systems using automatic capacitor bank switching.
 
 ## Components Used
-- Capacitor Bank
-- Relays 
+- Capacitor Bank: 2.7 µF capacitor
+- Step-down Transformer: 240V AC to 12V AC
+- Rectifier Circuit: Used to convert 12V AC to DC
+- Voltage Regulator / Control Supply: 12V DC to 5V DC
+- Relay 
 - Electrical Load
-- Voltage(ZMPT101B) and Current(ACS712) Measurement Sensor
-- Control Circuit
+- Connecting Wires
 - Power Supply
 
 ## Working
-The system monitors the load condition and power factor. Based on the reactive power requirement, capacitor stages are switched automatically to compensate reactive power and improve the overall power factor of the system.
+The 240V AC supply is stepped down to 12V AC using a transformer. This 12V AC is converted into DC using a rectifier circuit and further regulated to 5V DC for the control circuit. The APFC system uses a 2.7 µF capacitor for power factor correction. Based on the load condition, the control circuit switches the capacitor into the circuit to compensate reactive power and improve the power factor.
 
 ## Features
 - Automatic power factor improvement
