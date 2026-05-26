@@ -37,3 +37,11 @@ The system monitors the load condition and power factor. Based on the reactive p
 
 ## Outcome
 The project helped in understanding power factor improvement techniques, capacitor bank operation, reactive power compensation, and practical applications of power quality enhancement in electrical systems.
+
+## Project Images
+
+### Hardware Setup
+![Hardware Setup](APFC_hardware.jpeg)
+
+### Output
+![Output](APFC_output.jpeg)
